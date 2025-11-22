@@ -1,6 +1,6 @@
 /* Estilos básicos para o perfil de Tupac Shakur */
 
-/* Reset básico e fontes */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -12,13 +12,13 @@ body {
     height: auto;
 }
 
-/* Cabeçalho */
+
 header {
     background-color: #1a1a1a;
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    border-bottom: 5px solid #abdecb; /* Cor de destaque */
+    border-bottom: 5px solid #abdecb; 
 }
 
 header h1 {
@@ -27,7 +27,7 @@ header h1 {
     letter-spacing: 2px;
 }
 
-/* Conteúdo Principal */
+
 main {
     max-width: 900px;
     margin: 20px auto;
@@ -50,7 +50,7 @@ section h2 {
     margin-top: 0;
 }
 
-/* Imagens e Figuras */
+
 figure {
     margin: 15px 0;
     text-align: center;
@@ -69,7 +69,7 @@ figcaption {
     margin-top: 5px;
 }
 
-/* Lista de Definição (Dados Pessoais) */
+
 dl {
     display: grid;
     grid-template-columns: 150px 1fr;
@@ -86,7 +86,7 @@ dd {
     margin-left: 0;
 }
 
-/* Listas Ordenadas (Filmes e Músicas) */
+
 ol {
     list-style: none;
     padding: 0;
@@ -132,7 +132,7 @@ ol li a:hover {
     color: #2980b9;
 }
 
-/* Rodapé */
+
 footer {
     text-align: center;
     padding: 15px 0;
