@@ -1,0 +1,143 @@
+/* Estilos básicos para o perfil de Tupac Shakur */
+
+/* Reset básico e fontes */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    width: 100%;
+    height: auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #e74c3c; /* Cor de destaque */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+section h2 {
+    color: #000000;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Imagens e Figuras */
+figure {
+    margin: 15px 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+figcaption {
+    font-style: italic;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Lista de Definição (Dados Pessoais) */
+dl {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+dt {
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+dd {
+    margin-left: 0;
+}
+
+/* Listas Ordenadas (Filmes e Músicas) */
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+ol li {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 10px;
+}
+
+ol li:last-child {
+    border-bottom: none;
+}
+
+ol li figure {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+ol li img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+ol li figcaption {
+    font-style: normal;
+    color: #333;
+    font-size: 1.1em;
+}
+
+ol li a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ol li a:hover {
+    text-decoration: underline;
+    color: #2980b9;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
